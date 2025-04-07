@@ -51,7 +51,7 @@ const ChatHistoryItem: React.FC<ChatHistoryItemProps> = ({
   // Create a truncated summary of the title
   const truncatedTitle =
     chat.title.length > 60 ? `${chat.title.substring(0, 57)}...` : chat.title;
-  
+
   // Get formatted date
   const date = new Date(chat.createdAt);
   const formattedDate = date.toLocaleDateString();
@@ -76,10 +76,10 @@ const ChatHistoryItem: React.FC<ChatHistoryItemProps> = ({
           {formattedDate}, {formattedTime}
         </span>
       </div>
-      
+
       <div className="text-xs text-muted-foreground mt-1">
         {messageCount} messages
       </div>
     </Card>
   );
-}; 
+};
