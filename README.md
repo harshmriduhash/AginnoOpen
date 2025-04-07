@@ -25,7 +25,7 @@ This is the first step toward a larger vision: building autonomous, modular, and
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/ALLENDE123X/AginnoOpen.git
+git clone https://github.com/Harshmriduhash/AginnoOpen.git
 cd AginnoOpen
 npm install
 
