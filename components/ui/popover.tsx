@@ -1,5 +1,11 @@
 "use client";
 
+// This file contains the Popover component and its associated trigger and content components.
+// It uses Radix UI's Popover component and applies custom styles and animations.
+// The Popover component is a UI element that displays additional information or options when triggered by user interaction.
+// It is commonly used in web applications to provide contextual information without navigating away from the current page.
+// The Popover component is built using React and Radix UI, a low-level UI component library.
+// The Popover component is a wrapper around the Radix UI Popover component, providing additional styling and functionality.  
 import * as React from "react";
 import * as PopoverPrimitive from "@radix-ui/react-popover";
 
